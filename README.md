@@ -23,10 +23,10 @@ The project uses the Python programming language and libraries such as pandas, n
 ## Models:
 SVM, NN, and XGBoost models were compared with the same random state parameter and train-test separation at the same rate. Then, each model was optimized in a way that would give more accurate results. All models are metrically evaluated with the Accuracy: (SP + SE)/2 metrics which is suggested in the Sisfall article [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5298771/].
 
-## highest accuracy values of the models:  
-### XGB: 0.9856118457813373  
-### SVM: 0.9782710364427816  
-### NN: 0.9773148148148147
+### Highest accuracy values of the models:  
+#### *XGB: 0.9856118457813373*  
+#### *SVM: 0.9782710364427816*  
+#### *NN: 0.9773148148148147*
 
 
 ## Contributing
