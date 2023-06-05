@@ -4,14 +4,14 @@ This project aims to detect falls using the SisFall dataset, which consists of s
 
 ## Dataset: 
 ### SisFall: A Fall and Movement Dataset
-SisFall dataset: A Fall and Movement Dataset. Created by: A. Sucerquia, J.D. López, J.F. Vargas-Bonilla SISTEMIC, Faculty of Engineering, Universidad de Antiquia UDEA. Detailed information about this dataset can be found in this website: http://sistemic.udea.edu.co/en/investigacion/proyectos/english-falls/. Reference paper: Sucerquia A, López JD, Vargas-Bonilla JF. SisFall: A Fall and Movement Dataset. Sensors (Basel). 2017;17(1):198. Published 2017 Jan 20. doi:10.3390/s17010198.
+SisFall dataset: A Fall and Movement Dataset. Created by: A. Sucerquia, J.D. López, J.F. Vargas-Bonilla SISTEMIC, Faculty of Engineering, Universidad de Antiquia UDEA. Detailed information about this dataset can be found on this website: http://sistemic.udea.edu.co/en/investigacion/proyectos/english-falls/. Reference paper: Sucerquia A, López JD, Vargas-Bonilla JF. SisFall: A Fall and Movement Dataset. Sensors (Basel). 2017;17(1):198. Published 2017 Jan 20. doi:10.3390/s17010198.
 
-PS: If you having a problem to access to dataset via it's original link, you can get the raw data from: https://github.com/JiayangLai/SisFallDatasetAnnotation (SisFall_dataset_csv).
+PS: If you are having a problem accessing a dataset via its original link, you can get the raw data from: https://github.com/JiayangLai/SisFallDatasetAnnotation (SisFall_dataset_csv).
 
 
 ## Data Preprocessing
 
-The project utilizes the Python programming language and libraries such as pandas, numpy and os to process the dataset. The data preprocessing steps involve the following:
+The project uses the Python programming language and libraries such as pandas, numpy and os to process the dataset. The data preprocessing steps involve the following:
 
 1. Reading the raw data files in the folder where the dataset is stored.
 2. Downsampling the data and calculating various properties of the accelerometers(ADXL345).
